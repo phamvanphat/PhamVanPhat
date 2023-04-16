@@ -1,0 +1,12 @@
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\DoAnThucTap.DTOs.csproj.AssemblyReference.cache
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\DoAnThucTap.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\DoAnThucTap.DTOs.AssemblyInfoInputs.cache
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\DoAnThucTap.DTOs.AssemblyInfo.cs
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\DoAnThucTap.DTOs.csproj.CoreCompileInputs.cache
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\bin\Debug\net5.0\DoAnThucTap.DTOs.deps.json
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\bin\Debug\net5.0\DoAnThucTap.DTOs.dll
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\bin\Debug\net5.0\DoAnThucTap.DTOs.pdb
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\DoAnThucTap.DTOs.dll
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\refint\DoAnThucTap.DTOs.dll
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\DoAnThucTap.DTOs.pdb
+D:\hoaibao\DuAN\QuanLyThuVien\DoAN\Doanthuctap\DoAnThucTap.DTOs\obj\Debug\net5.0\ref\DoAnThucTap.DTOs.dll

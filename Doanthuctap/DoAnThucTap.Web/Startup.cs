@@ -1,6 +1,11 @@
+﻿using AutoMapper;
+using DoAnThucTap.Data;
+using DoAnThucTap.Data.Reponsitory;
+using DoAnThucTap.Web.WebConfig;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +29,21 @@ namespace DoAnThucTap.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<DoAnThucTapDbContext>(option =>
+            {
+                option.UseSqlServer(Configuration.GetConnectionString("Database"));
+            });
+            services.AddHttpContextAccessor();
+            // khai báo generic
+            services.AddScoped<BaseReponsitory>();
+            services.AddServiceRepositories();
+            // cấu hình mapper
+            var mapperConfig = new MapperConfiguration(config =>
+            {
+                config.AddProfile(new MapperConfig());
+            });
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +68,11 @@ namespace DoAnThucTap.Web
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapAreaControllerRoute(
+                    name: "Admin",
+                    areaName: "Admin",
+                    pattern: "Admin/{controller=Home}/{action=Index}/{id?}"
+                    );
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
